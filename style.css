@@ -1,0 +1,64 @@
+/* 1. Espaçamento e tamanho do cartão principal */
+div {
+    max-width: 450px;
+    margin: 60px auto;        /* 60px de espaço no topo e centralizado nos lados */
+    padding: 30px;            /* Espaço interno ao redor do conteúdo */
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 2. Espaçamento e tamanho dos textos */
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;      /* Espaço entre o H1 e o H2 */
+    color: #333;
+}
+
+h2 {
+    font-size: 14px;
+    margin-bottom: 25px;      /* Espaço entre o H2 e o formulário */
+    color: #666;
+}
+
+/* 3. Organização do formulário */
+.forms {
+    display: flex;
+    flex-direction: column;   /* Deixa o input acima do botão */
+    gap: 20px;                 /* Cria um espaço fixo de 15px entre os elementos */
+    align-items: center;
+}
+
+/* 4. Tamanho e espaçamento do campo de digitação */
+input {
+    width: 100%;
+    max-width: 200px;         /* Largura do campo */
+    padding: 10px 15px;       /* Altura e respiro interno da caixa */
+    font-size: 18px;          /* Tamanho do número digitado */
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+/* 5. Tamanho e espaçamento do botão */
+button {
+    width: 100%;
+    max-width: 200px;
+    padding: 12px;            /* Altura do botão */
+    font-size: 16px;          /* Tamanho do texto no botão */
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+}
+
+#mensagem {
+    font-size: 20px;
+    margin-top: 25px;      /* Espaço entre o H2 e o formulário */
+    color: #330aee;
+}
+
+#imagemGato {
+    display: none;
+    
+}
