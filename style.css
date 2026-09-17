@@ -60,5 +60,8 @@ button {
 
 #imagemGato {
     display: none;
-    
+    max-width: 200px; 
+    margin: 20px auto;
 }
+
+

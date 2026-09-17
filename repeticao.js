@@ -42,8 +42,8 @@ botao_N_confirmar.addEventListener("click", () => {
     
 //! intermediario 2
 
-const botao_advinha_confirmar = document.querySelector(".botao_advinha");
-const input_advinha = document.querySelector(".numero_advinha");
+const botao_advinha_confirmar = document.querySelector(".botao_adivinha");
+const input_advinha = document.querySelector(".numero_adivinha");
 const paragrafo = document.querySelector("#mensagem");
 const imagem = document.querySelector("#imagemGato");
 
